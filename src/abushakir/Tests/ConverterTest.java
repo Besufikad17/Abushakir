@@ -1,4 +1,4 @@
-package abushakir.Test;
+package abushakir.Tests;
 
 import abushakir.util.Calander_Exceptions;
 import abushakir.util.Converter;

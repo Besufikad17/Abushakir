@@ -1,4 +1,4 @@
-package abushakir.Test;
+package abushakir.Tests;
 
 import abushakir.calander.etDateTime;
 import org.junit.Test;
