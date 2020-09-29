@@ -91,7 +91,7 @@ public class Bahirehasab {
             String tikimt1 = weekdays[(indexOf(meskerem1, weekdays) + 2) % 7];
             String metkihElet = weekdays[(indexOf(tikimt1, weekdays) + metkih - 1) % 7];
             for (Map.Entry mapElement : yeeletTewsak.entrySet()){
-                if ((mapElement.getKey()) == weekdays[(Util.indexOf(metkihElet,weekdays) + metkih - 1)]){
+                if ((mapElement.getKey()) == weekdays[(Util.indexOf(metkihElet,weekdays) + metkih - 1)% 7]){
                     dayTewsak = (int) mapElement.getValue();
                 }
             }
